@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Playwrite+NZ+Basic:wght@100..400&display=swap");
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  color: #ea5360;
+  font-family: "Playwrite NZ Basic", sans-serif;
+  font-optical-sizing: auto;
+}
+
+#container {
+  text-align: center;
+}
+
+.main-pic {
+  aspect-ratio: 1;
+  width: 60%;
+  border-radius: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .main-pic {
+    width: 40%;
+  }
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #ea5360;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  transform-origin: center;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+#yesBtn {
+  z-index: 2;
+  left: 0;
+  background-color: #ea5360;
+  color: #fdd5d0;
+}
+
+#noBtn {
+  z-index: 1;
+  right: 0;
+  background: #fdd5d0;
+  color: #ea5360;
+}
