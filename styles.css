@@ -64,7 +64,9 @@ button {
   }
   button {
     padding: 0.5rem 2rem;
+    font-size: 1rem;
+  }
+  .buttons {
     gap: 2rem;
-    font-size: 2rem;
   }
 }
