@@ -25,8 +25,6 @@ function teaseUser() {
   yesBtn.style.left = "50%";
   yesBtn.style.transform = `translateX(-30%) scale(${scale})`;
 
-  noBtn.style.fontSize = `1rem`;
-
   // Auto accept 😈
   if (scale >= 3) {
     yesBtn.click();
